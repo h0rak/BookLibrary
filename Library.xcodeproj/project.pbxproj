@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C610EC7289A069D00D6BA0E /* Repo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C610EC6289A069D00D6BA0E /* Repo.cpp */; };
 		5C88E04E28973CA000D43ACF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C88E04D28973CA000D43ACF /* main.cpp */; };
+		5C88E0592897512700D43ACF /* Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C88E0582897512700D43ACF /* Book.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,10 +25,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C610EC52899FA9E00D6BA0E /* Repo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		5C610EC6289A069D00D6BA0E /* Repo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Repo.cpp; sourceTree = "<group>"; };
 		5C88E04A28973CA000D43ACF /* Library */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Library; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C88E04D28973CA000D43ACF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5C88E05528973CD400D43ACF /* BookType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BookType.hpp; sourceTree = "<group>"; };
 		5C88E057289740CD00D43ACF /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		5C88E0582897512700D43ACF /* Book.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Book.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +66,10 @@
 			children = (
 				5C88E04D28973CA000D43ACF /* main.cpp */,
 				5C88E057289740CD00D43ACF /* Book.h */,
+				5C88E0582897512700D43ACF /* Book.cpp */,
 				5C88E05528973CD400D43ACF /* BookType.hpp */,
+				5C610EC52899FA9E00D6BA0E /* Repo.h */,
+				5C610EC6289A069D00D6BA0E /* Repo.cpp */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -123,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C610EC7289A069D00D6BA0E /* Repo.cpp in Sources */,
+				5C88E0592897512700D43ACF /* Book.cpp in Sources */,
 				5C88E04E28973CA000D43ACF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
